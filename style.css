@@ -1,0 +1,52 @@
+ul {
+  margin-top: 20px;
+}
+
+li {
+  margin-top: 10px;
+  list-style: none;
+  text-align: left;
+  font-size: 20px;
+  padding: 10px 20px;
+  font-weight: 600px;
+  border: 2px solid rgb(225, 226, 232);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: all 0.75s ease;
+  max-width: 100%;
+}
+
+#done {
+  border-radius: 5px;
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#done:hover {
+  background-color: rgb(5, 58, 5);
+}
+
+#delete {
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+
+#delete:hover {
+  background-color: rgb(117, 10, 10);
+}
+
+.done {
+  text-decoration: line-through;
+  background-color: rgb(137, 198, 137);
+}
+
+.delete {
+  display: none;
+}

@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Entire App container (required for centering) -->
@@ -23,26 +24,14 @@
       <!-- Input -->
       <input
         id="input-add-todo"
+        type="text"
         class="form-control mb-1 fs-4"
         placeholder="insert todo here.."
       />
       <!-- Todo List container  -->
-      <div id="todo-container">
-        <!-- Example : Todo when mouse is over -->
-        <div class="border-bottom p-1 py-2 fs-2 d-flex">
-          <span class="me-3">Watch Netflix</span>
-          <button class="btn btn-success me-2">Done</button>
-          <button class="btn btn-danger">Delete</button>
-        </div>
-        <!-- Example : Todo when mouse is gone -->
-        <div class="border-bottom p-1 py-2 fs-2 d-flex">
-          <span class="me-3" style="text-decoration: line-through"
-            >Play Games</span
-          >
-          <button class="btn btn-success me-2" style="display: none">
-            Done
-          </button>
-          <button class="btn btn-danger" style="display: none">Delete</button>
+      <div id="todo-container" class="item">
+        <div class="listItem cal-12">
+          <ul class="col-12 offset-0 col-sm-8 offset-sm-2"></ul>
         </div>
       </div>
     </div>
